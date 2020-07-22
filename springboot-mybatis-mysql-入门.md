@@ -24,6 +24,16 @@ vscode中安装MySQL插件-- MySQL management tool
 在Explorer的MYSQL项目中点击加号，根据向导添加数据源，其中端口号把3306改成33060
 在MYSQL中就显示出默认的database了
 
+### 创建数据库
+
+sql语句创建表时，VARCHAR需要制定长度，否则语法检查不过
+
+## lombok简介
+
+## lombok使用
+
+
+
 ## 参考资料
 - [docker hub mysql](https://hub.docker.com/_/mysql)
--
+- [lombok Home Page](https://projectlombok.org/)
