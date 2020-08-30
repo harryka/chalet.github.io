@@ -18,6 +18,8 @@
 ```
 docker pull mysql:5.7
 docker run -p 33060:3306 --name harry-mysql -e MYSQL_ROOT_PASSWORD=12345678 -d mysql:5.7
+mysql -u root -p12345678 < /config_script/createdb.sql
+docker exec -it harry-mysql-01 sh -c "mysql -u root -p12345678 < /config_script/createdb.sql"
 ```
 ### 测试mysql链接
 vscode中安装MySQL插件-- MySQL management tool
